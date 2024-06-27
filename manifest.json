@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "version":"1.0",
+    "name":"Remove 'X Blocked Messages' Text",
+    "content_scripts":[
+    {
+     "matches":["<all_urls>"],
+     "js":["main.js"],
+     "css":["main.css"]
+    }
+    ]
+}
+  
