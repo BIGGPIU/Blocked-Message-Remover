@@ -1,6 +1,7 @@
-.blockedSystemMessage_c09d0f {
-    opacity:0%;
-    height:1%;
-    position:absolute;
-    left:10000000px;
+.groupStart_d5deea:has(.blockedSystemMessage_c09d0f) {
+    height: 0;
+    width: 0;
+    opacity: 0%;
+    left: 999999px;
+    position: absolute;
 }
