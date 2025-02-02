@@ -1,7 +1,31 @@
-.groupStart_d5deea:has(.blockedSystemMessage_c09d0f) {
+/* .groupStart_d5deea:has(div[class^="blockedSystemMessage_"]) {
     height: 0;
     width: 0;
     opacity: 0%;
     left: 999999px;
     position: absolute;
+}
+
+.groupStart_d5deea:has(blockedSystemMessage_c09d0f) {
+    height: 0;
+    width: 0;
+    opacity: 0%;
+    left: 999999px;
+    position: absolute;
+} 
+.groupStart_d5deea:has(.blockedSystemMessage__7a70a) {
+    height: 0;
+    width: 0;
+    opacity: 0%;
+    left: 999999px;
+    position: absolute;
+} */
+
+
+div[class^="blockedSystemMessage"] {
+    height: 0;
+    width: 0;
+    opacity: 0%;
+    left: 999999px;
+    position: absolute; 
 }
